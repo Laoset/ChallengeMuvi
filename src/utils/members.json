@@ -18,7 +18,7 @@
       "avellaneda": 5,
       "barracas": 1
     },
-    "healthStatus": true,
+    "healthStatus": false,
     "expirationMedicalCertificate": "2024/07/15",
     "paymentHistory": {
       "paymentInvoice": "Invoice#0001",
@@ -65,7 +65,7 @@
       "avellaneda": 10,
       "barracas": 1
     },
-    "healthStatus": true,
+    "healthStatus": false,
     "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
@@ -203,7 +203,7 @@
       "avellaneda": 0,
       "barracas": 1
     },
-    "healthStatus": true,
+    "healthStatus": false,
     "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
@@ -341,7 +341,7 @@
       "avellaneda": 0,
       "barracas": 0
     },
-    "healthStatus": true,
+    "healthStatus": false,
     "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",

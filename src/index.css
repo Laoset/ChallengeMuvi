@@ -69,7 +69,7 @@ body {
 
 /* EDITING MEMBER SECTION START*/
 .editmember__container {
-  @apply py-6;
+  @apply py-0;
 }
 .editmember__image-container {
   @apply flex flex-col justify-center items-center mb-6;
