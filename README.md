@@ -24,3 +24,7 @@ Download or clone the repository.
 run $ npm install
 run $ npm run dev
 ```
+
+## Example Deployment
+
+You can find the deployed app at: (https://challenge-muvi-77mb.vercel.app/)
