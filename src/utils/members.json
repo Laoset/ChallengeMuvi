@@ -1,0 +1,483 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "contacto": {
+      "email": "juan@example.com",
+      "celular": "123-456-7890"
+    },
+    "edad": "03/02/1999",
+    "membership": "Gold",
+    "billingStatus": "Active",
+    "dni": "30678912",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/m23bizd1oqsnhsr20e3o",
+    "accessGym": {
+      "total": 6,
+      "belgrano": 0,
+      "avellaneda": 5,
+      "barracas": 1
+    },
+    "healthStatus": true,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "Invoice#0001",
+      "amount": "$8.000",
+      "date": "01/03/2023",
+      "status": "Success",
+      "creditCard": {
+        "number": "**1234",
+        "branch": "Visa"
+      }
+    },
+    "voucher": {
+      "name": "OSDE",
+      "discount": 15,
+      "discountSince": "10/10/2022",
+      "discountUntil": "10/12/2022"
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Maria",
+    "apellido": "Gomez",
+    "contacto": {
+      "email": "maria@example.com",
+      "celular": "987-654-3210"
+    },
+    "edad": 35,
+    "membership": "Gold",
+    "billingStatus": "Active",
+    "dni": "21567890",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM5L9lUtU57H7s1y5Bs-kiaS5ji2vdPxm2ww",
+    "accessGym": {
+      "total": 13,
+      "belgrano": 2,
+      "avellaneda": 10,
+      "barracas": 1
+    },
+    "healthStatus": true,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Luis",
+    "apellido": "Martinez",
+    "contacto": {
+      "email": "luis@example.com",
+      "celular": "555-555-5555"
+    },
+    "edad": 22,
+    "membership": "Basic",
+    "billingStatus": "Pending",
+    "dni": "40987654",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://images.squarespace-cdn.com/content/v1/5c7aa0b6a09a7e78c6f79ecf/79cd905e-f469-43cb-8e71-8056808930f5/Errin+Gaulin.png?format=300w",
+    "accessGym": {
+      "total": 22,
+      "belgrano": 15,
+      "avellaneda": 7,
+      "barracas": 0
+    },
+    "healthStatus": false,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Ana",
+    "apellido": "Ramirez",
+    "contacto": {
+      "email": "ana@example.com",
+      "celular": "111-222-3333"
+    },
+    "edad": 30,
+    "membership": "Platinium",
+    "billingStatus": "Pending",
+    "dni": "52345678",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQey1Uk5ToL0V1W465dc84XJ61x_KlRWbTGuw",
+    "accessGym": {
+      "total": 8,
+      "belgrano": 1,
+      "avellaneda": 7,
+      "barracas": 0
+    },
+    "healthStatus": false,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "Carlos",
+    "apellido": "Lopez",
+    "contacto": {
+      "email": "carlos@example.com",
+      "celular": "444-444-4444"
+    },
+    "edad": 40,
+    "membership": "Basic",
+    "billingStatus": "Pending",
+    "dni": "13245678",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPpcoLn1S_u7Nbe5bksxBhgEQs-k9EMlBi5Q",
+    "accessGym": {
+      "total": 1,
+      "belgrano": 0,
+      "avellaneda": 0,
+      "barracas": 1
+    },
+    "healthStatus": true,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "Laura",
+    "apellido": "Hernandez",
+    "contacto": {
+      "email": "laura@example.com",
+      "celular": "777-777-7777"
+    },
+    "edad": 29,
+    "membership": "Basic",
+    "billingStatus": "Pending",
+    "dni": "65432123",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://m.media-amazon.com/images/G/01/digital/EXPA_2021_PVProfileImageCircle_256x256_ClarissaMao_LightGreen.png",
+    "accessGym": {
+      "total": 5,
+      "belgrano": 3,
+      "avellaneda": 2,
+      "barracas": 0
+    },
+    "healthStatus": false,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 7,
+    "nombre": "Diego",
+    "apellido": "Gonzalez",
+    "contacto": {
+      "email": "diego@example.com",
+      "celular": "666-666-6666"
+    },
+    "edad": 27,
+    "membership": "Basic",
+    "billingStatus": "Pending",
+    "dni": "98765432",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/farbu51yd9gki2mehx7t",
+    "accessGym": {
+      "total": 6,
+      "belgrano": 0,
+      "avellaneda": 5,
+      "barracas": 1
+    },
+    "healthStatus": true,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 8,
+    "nombre": "Valeria",
+    "apellido": "Diaz",
+    "contacto": {
+      "email": "valeria@example.com",
+      "celular": "999-999-9999"
+    },
+    "edad": 32,
+    "membership": "Basic",
+    "billingStatus": "Active",
+    "dni": "74563218",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://m.media-amazon.com/images/G/01/digital/EXPA_2021_PVProfileImageCircle_256x256_ChrisjenAvasarala_DarkOrange.png",
+    "accessGym": {
+      "total": 3,
+      "belgrano": 3,
+      "avellaneda": 0,
+      "barracas": 0
+    },
+    "healthStatus": true,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 9,
+    "nombre": "Jorge",
+    "apellido": "Rodriguez",
+    "contacto": {
+      "email": "jorge@example.com",
+      "celular": "888-888-8888"
+    },
+    "edad": 33,
+    "membership": "Basic",
+    "billingStatus": "Cancel",
+    "dni": "87654321",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://m.media-amazon.com/images/G/01/digital/EXPA_2021_PVProfileImageCircle_256x256_CaminaDrummer_LightOrange.png",
+    "accessGym": {
+      "total": 16,
+      "belgrano": 10,
+      "avellaneda": 5,
+      "barracas": 1
+    },
+    "healthStatus": false,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  },
+  {
+    "id": 10,
+    "nombre": "Elena",
+    "apellido": "Santos",
+    "contacto": {
+      "email": "elena@example.com",
+      "celular": "222-333-4444"
+    },
+    "edad": 26,
+    "membership": "Gold",
+    "billingStatus": "Freeze",
+    "dni": "23456789",
+    "validityDate": "01/12/2023",
+    "upcomingDate": "02/12/2023",
+    "profileImage": "https://m.media-amazon.com/images/G/01/digital/EXPA_2021_PVProfileImageCircle_256x256_NaomiNagata_Purple.png",
+    "accessGym": {
+      "total": 3,
+      "belgrano": 2,
+      "avellaneda": 1,
+      "barracas": 0
+    },
+    "healthStatus": true,
+    "expirationMedicalCertificate": "",
+    "paymentHistory": {
+      "paymentInvoice": "",
+      "amount": "",
+      "date": "",
+      "status": "",
+      "creditCard": {
+        "number": "",
+        "branch": ""
+      }
+    },
+    "voucher": {
+      "name": "",
+      "discount": 0,
+      "discountUntil": ""
+    },
+    "partnership": {
+      "since": "03/03/2019",
+      "until": "05/06/2020"
+    },
+    "editionHistory": {
+      "id": "1",
+      "type": "Secretary",
+      "modified": "Change category from basic to gold"
+    }
+  }
+]
