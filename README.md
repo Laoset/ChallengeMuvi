@@ -1,8 +1,26 @@
-# React + Vite
+# Gym Partner Dashboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository showcases a dashboard-type screen where gym partner information can be edited.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application is built using Vite, React, and TailwindCSS.
+
+### Features
+
+- ✅ Member visualization table
+- ✅ Member editing section
+- ✅ Ability to send emails or messages to members
+- ✅ Payment history visualization
+- ✅ Access history visualization for different gym branches
+- ✅ Association history visualization
+- ✅ Modification history visualization
+
+## Setup
+
+Download or clone the repository.
+
+```
+run $ npm install
+run $ npm run dev
+```

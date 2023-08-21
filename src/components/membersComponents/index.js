@@ -5,6 +5,7 @@ import Searchbar from "./SearchBar.jsx";
 import ModalHistory from "./ModalHistory";
 import EditingMemberHistory from "./historyMember/EditingMemberHistory";
 import VoucherHistory from "./historyMember/VoucherHistory";
+import TableMembers from "./TableMembers";
 export {
   Searchbar,
   EditMember,
@@ -13,4 +14,5 @@ export {
   ModalHistory,
   VoucherHistory,
   EditingMemberHistory,
+  TableMembers,
 };

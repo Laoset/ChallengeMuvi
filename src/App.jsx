@@ -20,13 +20,13 @@ const App = () => {
     }
   };
   return (
-    <div className="flex flex-col">
+    <main className="flex flex-col ">
       <NavBar />
       <section className="flex flex-row">
         <SideBar setRouting={setRouting} />
         <div className="ml-20 p-6 w-full ">{viewSelected()}</div>
       </section>
-    </div>
+    </main>
   );
 };
 

@@ -1,3 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-textPoppins;
+}
+.input__checkbox-style {
+  @apply w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded;
+}
+/* NAVBAR START */
+.navbar__container {
+  @apply bg-[#272A2F] w-full h-20 flex flex-row items-center px-6 justify-between;
+}
+.navbar__branch-title {
+  @apply text-white font-extrabold text-4xl;
+}
+.navbar__container-elements {
+  @apply flex flex-row gap-4  font-medium;
+}
+/* NAVBAR END */
+
+/* SIDEBAR START */
+.sidebar__container {
+  @apply bg-[#f4f4f6] w-20 h-full fixed  font-medium;
+}
+.sidebar__elements-container {
+  @apply w-full flex flex-col h-full justify-around;
+}
+.sidebar__buttons-style {
+  @apply flex flex-col items-center;
+}
+/* SIDEBAR END */
+
+/* ACTIONS START */
+.actions__buttons-style {
+  @apply block px-4 py-2 hover:bg-gray-100 w-full text-left text-sm text-gray-700;
+}
+/* ACTIONS END */
+
+/* MEMBERS SECTION START*/
+.members__container {
+  @apply relative overflow-x-auto extreme:py-6;
+}
+.members__actionSearchbar-container {
+  @apply shadow-md flex items-center justify-between pb-4 bg-white;
+}
+.members__container-table {
+  @apply max-h-[500px] overflow-y-auto tall:max-h-[680px] extreme:max-h-none;
+}
+.members__table-container {
+  @apply w-full text-sm text-left text-gray-500 table-auto;
+}
+.members__thead-container {
+  @apply text-xs text-gray-700 uppercase bg-gray-50;
+}
+.members__tbody-container {
+  @apply bg-white border-b hover:bg-gray-50;
+}
+.members__tbody-tr {
+  @apply bg-white border-b hover:bg-gray-50;
+}
+.members__buttons-style {
+  @apply font-medium text-blue-600 hover:underline;
+}
+/* MEMBERS SECTION END*/
+
+/* EDITING MEMBER SECTION START*/
+.editmember__container {
+  @apply py-6;
+}
+.editmember__image-container {
+  @apply flex flex-col justify-center items-center mb-6;
+}
+.editmember__image {
+  @apply w-24 h-24 rounded-full hover:border-2 hover:border-blue-400 hover:cursor-pointer;
+}
+.editmember__section-grid-container {
+  @apply grid gap-x-4 mb-6 md:grid-cols-4;
+}
+.editmember__buttons-style {
+  @apply text-white font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+}
+/* EDITING MEMBER SECTION END*/

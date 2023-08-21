@@ -6,28 +6,22 @@ const Actions = () => {
     <div>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="inline-flex items-center text-gray-500 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100   font-medium rounded-lg text-sm px-3 py-1.5"
+        className="inline-flex items-center text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 font-medium rounded-lg text-sm px-3 py-1.5"
         type="button"
       >
         Actions
       </button>
       {isOpen ? (
-        <div className=" absolute z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 ">
-          <button className="block px-4 py-2 hover:bg-gray-100 w-full text-left text-sm text-gray-700 ">
-            Baja de socio
+        <div className=" absolute z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+          <button className="actions__buttons-style">
+            Downgrade Membership
           </button>
 
-          <button className="block px-4 py-2 hover:bg-gray-100 w-full text-left text-sm text-gray-700 ">
-            Bloquear acceso
-          </button>
+          <button className="actions__buttons-style">Block Access</button>
 
-          <button className="block px-4 py-2 hover:bg-gray-100 w-full text-left text-sm text-gray-700 ">
-            Dar de alta
-          </button>
+          <button className="actions__buttons-style">Register</button>
 
-          <button className="block px-4 py-2 hover:bg-gray-100 w-full text-left text-sm text-gray-700 ">
-            Aplicar cupon
-          </button>
+          <button className="actions__buttons-style">Apply Coupon</button>
         </div>
       ) : null}
     </div>

@@ -1,14 +1,14 @@
 const PaymentHistory = ({ member }) => {
   return (
     <table className="w-full text-sm text-left text-gray-500 table-auto">
-      <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700">
+      <thead className="text-xs text-gray-700 uppercase bg-gray-50 ">
         <tr>
           <th scope="col" className="p-4">
             <div className="flex items-center">
               <input
                 id="checkbox-all-search"
                 type="checkbox"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500"
+                className="input__checkbox-style"
               />
               <label htmlFor="checkbox-all-search" className="sr-only">
                 checkbox
@@ -27,14 +27,14 @@ const PaymentHistory = ({ member }) => {
           </th>
         </tr>
       </thead>
-      <tbody className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 ">
+      <tbody className="bg-white border-b  hover:bg-gray-50  ">
         <tr className="bg-white border-b hover:bg-gray-50 ">
           <td className="w-4 p-4">
             <div className="flex items-center">
               <input
                 id="checkbox-table-search-1"
                 type="checkbox"
-                className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500"
+                className="input__checkbox-style"
               />
               <label htmlFor="checkbox-table-search-1" className="sr-only">
                 checkbox
@@ -73,7 +73,7 @@ const PaymentHistory = ({ member }) => {
           )}
           <td>
             <div className="flex flex-row justify-evenly">
-              <button className="font-medium text-blue-600 dark:text-blue-500 hover:underline ">
+              <button className="font-medium text-blue-600 hover:underline ">
                 Download
               </button>
             </div>

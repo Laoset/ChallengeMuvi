@@ -3,11 +3,9 @@
     "id": 1,
     "nombre": "Juan",
     "apellido": "Perez",
-    "contacto": {
-      "email": "juan@example.com",
-      "celular": "123-456-7890"
-    },
-    "edad": "03/02/1999",
+    "email": "juan@example.com",
+    "celular": "123-456-7890",
+    "edad": "1985/07/15",
     "membership": "Gold",
     "billingStatus": "Active",
     "dni": "30678912",
@@ -21,7 +19,7 @@
       "barracas": 1
     },
     "healthStatus": true,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "2024/07/15",
     "paymentHistory": {
       "paymentInvoice": "Invoice#0001",
       "amount": "$8.000",
@@ -52,11 +50,9 @@
     "id": 2,
     "nombre": "Maria",
     "apellido": "Gomez",
-    "contacto": {
-      "email": "maria@example.com",
-      "celular": "987-654-3210"
-    },
-    "edad": 35,
+    "email": "maria@example.com",
+    "celular": "987-654-3210",
+    "edad": "1992-03-28",
     "membership": "Gold",
     "billingStatus": "Active",
     "dni": "21567890",
@@ -70,7 +66,7 @@
       "barracas": 1
     },
     "healthStatus": true,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
@@ -100,11 +96,9 @@
     "id": 3,
     "nombre": "Luis",
     "apellido": "Martinez",
-    "contacto": {
-      "email": "luis@example.com",
-      "celular": "555-555-5555"
-    },
-    "edad": 22,
+    "email": "luis@example.com",
+    "celular": "555-555-5555",
+    "edad": "1978-11-05",
     "membership": "Basic",
     "billingStatus": "Pending",
     "dni": "40987654",
@@ -118,7 +112,7 @@
       "barracas": 0
     },
     "healthStatus": false,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
@@ -148,11 +142,9 @@
     "id": 4,
     "nombre": "Ana",
     "apellido": "Ramirez",
-    "contacto": {
-      "email": "ana@example.com",
-      "celular": "111-222-3333"
-    },
-    "edad": 30,
+    "email": "ana@example.com",
+    "celular": "111-222-3333",
+    "edad": "2001-09-12",
     "membership": "Platinium",
     "billingStatus": "Pending",
     "dni": "52345678",
@@ -166,7 +158,7 @@
       "barracas": 0
     },
     "healthStatus": false,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
@@ -196,11 +188,9 @@
     "id": 5,
     "nombre": "Carlos",
     "apellido": "Lopez",
-    "contacto": {
-      "email": "carlos@example.com",
-      "celular": "444-444-4444"
-    },
-    "edad": 40,
+    "email": "carlos@example.com",
+    "celular": "444-444-4444",
+    "edad": "1990-06-23",
     "membership": "Basic",
     "billingStatus": "Pending",
     "dni": "13245678",
@@ -214,7 +204,7 @@
       "barracas": 1
     },
     "healthStatus": true,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
@@ -244,11 +234,9 @@
     "id": 6,
     "nombre": "Laura",
     "apellido": "Hernandez",
-    "contacto": {
-      "email": "laura@example.com",
-      "celular": "777-777-7777"
-    },
-    "edad": 29,
+    "email": "laura@example.com",
+    "celular": "777-777-7777",
+    "edad": "1982-04-30",
     "membership": "Basic",
     "billingStatus": "Pending",
     "dni": "65432123",
@@ -262,7 +250,7 @@
       "barracas": 0
     },
     "healthStatus": false,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
@@ -292,11 +280,9 @@
     "id": 7,
     "nombre": "Diego",
     "apellido": "Gonzalez",
-    "contacto": {
-      "email": "diego@example.com",
-      "celular": "666-666-6666"
-    },
-    "edad": 27,
+    "email": "diego@example.com",
+    "celular": "666-666-6666",
+    "edad": "1995-12-08",
     "membership": "Basic",
     "billingStatus": "Pending",
     "dni": "98765432",
@@ -310,7 +296,7 @@
       "barracas": 1
     },
     "healthStatus": true,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
@@ -340,11 +326,9 @@
     "id": 8,
     "nombre": "Valeria",
     "apellido": "Diaz",
-    "contacto": {
-      "email": "valeria@example.com",
-      "celular": "999-999-9999"
-    },
-    "edad": 32,
+    "email": "valeria@example.com",
+    "celular": "999-999-9999",
+    "edad": "1973-02-17",
     "membership": "Basic",
     "billingStatus": "Active",
     "dni": "74563218",
@@ -358,7 +342,7 @@
       "barracas": 0
     },
     "healthStatus": true,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
@@ -388,11 +372,9 @@
     "id": 9,
     "nombre": "Jorge",
     "apellido": "Rodriguez",
-    "contacto": {
-      "email": "jorge@example.com",
-      "celular": "888-888-8888"
-    },
-    "edad": 33,
+    "email": "jorge@example.com",
+    "celular": "888-888-8888",
+    "edad": "2004-10-20",
     "membership": "Basic",
     "billingStatus": "Cancel",
     "dni": "87654321",
@@ -406,7 +388,7 @@
       "barracas": 1
     },
     "healthStatus": false,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
@@ -436,11 +418,9 @@
     "id": 10,
     "nombre": "Elena",
     "apellido": "Santos",
-    "contacto": {
-      "email": "elena@example.com",
-      "celular": "222-333-4444"
-    },
-    "edad": 26,
+    "email": "elena@example.com",
+    "celular": "222-333-4444",
+    "edad": "02-03-1999",
     "membership": "Gold",
     "billingStatus": "Freeze",
     "dni": "23456789",
@@ -454,7 +434,7 @@
       "barracas": 0
     },
     "healthStatus": true,
-    "expirationMedicalCertificate": "",
+    "expirationMedicalCertificate": "03/03/2019",
     "paymentHistory": {
       "paymentInvoice": "",
       "amount": "",
